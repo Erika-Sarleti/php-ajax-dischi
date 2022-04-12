@@ -14,3 +14,22 @@ header img{
     height: 100%;
     padding: 10px;
 }
+main{
+    background-color: #1e2d3b;
+    height: 90vh;
+    color: white;
+}
+.container-cards{
+    display: flex;
+    flex-wrap: wrap;
+    width: 1200px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+.card{
+    width: 200px;
+    margin:0 5px;
+}
+.card-img{
+    width: 100%;
+}
