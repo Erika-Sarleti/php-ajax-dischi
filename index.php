@@ -19,9 +19,9 @@
             include_once './data.php';
             foreach ($arrdisc as $element){?>
                 <div class="card">
-                    <figure class="card-image">
+                    <img class="card-img">
                         <img src="<?= $element['poster']; ?>" alt="<?= $element['title']; ?>" />
-                    </figure>
+                    </img>
                     <h2><?= $element['title']; ?></h2>
                     <p><?= $element['author']; ?></p>
                     <p><?= $element['year']; ?></p>
